@@ -9,10 +9,14 @@
   position: fixed;
   min-width: 290px;
   top: 0;
-  bottom: 0;
+  left: 0;
   width: 300px;
   height: 100%;
   text-align: center;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  padding-top: 10px;
+  line-height: 1.5;
 }
 
 #navbar ul {
@@ -34,18 +38,37 @@ a {
 
 #main-doc {
   position: absolute;
-  margin-left: 320px;
+  margin-left: 310px;
   padding: 20px;
-  margin-bottom: 100px;
-  line-height: 1.4;
+  margin-bottom: 110px;
+  line-height: 1.3;
+}
+
+p {
+  margin-left: 20px;
 }
 
 header {
   font-size: 1.4rem;
 }
 
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
 @media only screen and (max-width: 700px) {
   #navbar {
+    background-color: #fff;
     position: absolute;
     top: 0;
     padding: 0;
